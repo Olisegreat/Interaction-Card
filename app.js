@@ -71,7 +71,6 @@ HoldersCardNumber.addEventListener("keyup", (k)=>{
         HoldersCardNumber.value = HoldersCardNumber.value + " "
     }
     showOnce(k,showCardNum)
-
     isValid()
 })
 expiryMonth.addEventListener("keyup",(k)=>{
@@ -88,7 +87,9 @@ cvc.addEventListener("keyup",(k)=>{
 })
 
 confirmBtn.addEventListener("click",()=>{
+      
     showName.innerHTML =  HoldersName.value.toUpperCase()
+    
     showCardNum.innerHTML = HoldersCardNumber.value
     showExpiryMonth.innerHTML =  expiryMonth.value
     showExpiryYear.innerHTML = expiryYear.value

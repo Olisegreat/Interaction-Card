@@ -260,3 +260,39 @@ label {
         width: 100%;
     }
 }
+@media screen and (max-width: 480px) {
+  .cards{
+    width: 90%;
+    margin: 0;
+     margin-top: 150px;
+    margin-left: 10px;
+  }
+  .cards-img1-cont{
+    bottom: -50%;
+    height: 215px;
+  }
+  .cards-img2-cont{
+    top: -100%;
+    left: 22px;
+    height: 215px;
+  }
+  .card-num{
+    font-size: 23px;
+  }
+  .card-owner-details{
+    padding: 0;
+  }
+  .form{
+    padding-left: 20px;
+
+  }
+  .confirm-btn{
+    margin-top: 0px;
+  }
+  .continue-btn{
+    margin-top: 10px;
+  }
+  .show-cvc{
+    padding-top: 21px;
+  }
+}
