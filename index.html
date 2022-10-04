@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;500&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Interaction card</title>
+</head>
+<body>
+    <div class="page">
+        <!-- <div class="bg-ing-cont">
+
+        </div> -->
+        <div class="card-details">
+            <div class="cards">
+                <div class="cards-img1-cont">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle2"></div>
+                    </div>
+                    <p class="card-num">0000 0000 0000 0000</p>
+                    <div class="date">
+                        <p class="show-name">AHMED OBI</p>
+                        <div class="expiry-of-all">
+                            <p class="show-expiry month-own">00</p>
+                            <p class="show-expiry">/</p>
+                            <p class="show-expiry year-own">00</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="cards-img2-cont">
+                    <p class="show-cvc">000</p>
+                </div>
+            </div>
+            <div class="card-owner-details">
+                <form class="form">
+                    <label>
+                        CARDHOLDER NAME
+                        <input type="text" class="name" placeholder="e.g Ahmed Obi" required>
+                    </label>
+                    <label>
+                        CARD NUMBER
+                        <input type="text" class="number" placeholder="e.g 1234 5678 9123 0000" required maxlength="19">
+                        <p class="card-error"></p>
+                    </label>
+                    <div class="cvc-cont">
+                        <label>
+                            EXP. DATE (MM/YY)
+                            <div class="expiry-cont">
+                                <input type="text" class="expiry-month" placeholder="MM" required maxlength="2">
+                                <input type="text" class="expiry-year" placeholder="YY" required maxlength="2">
+                            </div>
+                            <p class="birth-error"></p>
+                        </label>
+                        <label>
+                            CVC
+                            <input type="text" class="cvc" placeholder="e.g 123" required pattern=".{1,3}" required title="123 format" maxlength="3">
+                            <p class="cvv-error"></p>
+                        </label>
+                    </div>
+                    <input type="button" value="Confirm" class="confirm-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
